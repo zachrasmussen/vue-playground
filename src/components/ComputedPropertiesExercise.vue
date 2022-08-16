@@ -4,8 +4,8 @@
       <div class="col-12">
         <div class="border p-1">
           <div class="reverse-message">
-            <p>Original Message: {{}}</p>
-            <p>Computed Reversed Message: {{}}</p>
+            <p>Original Message: {{ state.message }}</p>
+            <p>Computed Reversed Message: {{ reverse.message }}</p>
           </div>
         </div>
       </div>
